@@ -1,0 +1,96 @@
+.cover {
+  background-image: url('https://www.clipartsgram.com/image/254747200-free-download-background-images-for-website-design-3.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 80vh;
+  width: 100vw;
+}
+
+.title {
+  text-align: center;
+  position: relative;
+  top: 10%;
+  color: white;
+  width: 35vh;
+  height: 35vh;
+  margin: 0 auto;
+  background-color: #888888;
+  border-radius: 50%;
+  opacity: .9;
+}
+
+.innercircle {
+  text-align: center;
+  position: relative;
+  top: -33%;
+  color: white;
+  width: 34vh;
+  height: 34vh;
+  margin: 0 auto;
+  border: 3px inset #5FAD41;
+  border-radius: 50%;
+}
+
+.navbar {
+  top: -25%;
+  background-color: gray;
+  opacity: .7;
+  width: 70vh;
+  margin: 0 auto;
+}
+
+.navbar li {
+  display: inline-block;
+  color: white;
+  font-size: 20px;
+}
+
+.navbar ul {
+  margin: 0 auto;
+}
+
+.languages img {
+  height: 10vh;
+}
+
+.languages ul {
+  display: inline;
+}
+
+.languages li {
+  display: inline-block;
+}
+
+.title h1, h6 {
+  position: relative;
+  top: 14.5vh;
+  color: #1A1A1A;
+  font-family: 'Fjalla One', sans-serif;
+}
+
+.cover2 {
+  /*background-image: url('http://blog.hostbaby.com/wp-content/uploads/2013/07/scuffedstatic_blue1400x900.jpg');*/
+  background-color: white;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+  width: 100vw;
+}
+
+.container {
+  color: #E4E3D3;
+  background-color: #343434;
+  padding-top: 10px;
+  margin: 0 auto;
+}
+
+.col {
+  text-align: center;
+}
+
+.contact {
+  display: block;
+  background-color: #343434;
+}
