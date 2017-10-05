@@ -21,6 +21,11 @@
   opacity: .9;
 }
 
+.title a {
+  position: relative;
+  top: 17.5vh;
+}
+
 .innercircle {
   text-align: center;
   position: relative;
@@ -38,7 +43,6 @@
   background-color: #646366;
   opacity: .8;
   width: 100vw;
-  margin: 0 auto;
 }
 
 .navbar li {
@@ -61,7 +65,7 @@
 }
 
 .projects {
-  width: 100vw;
+  width: 100%;
   height: 75%;
   padding-bottom: 15px;
   /*background-image: url('images/black_thread.png');*/
@@ -70,19 +74,23 @@
 
 .projects h1 {
   text-align: center;
+  padding: 20px;
 }
 
 .projects img {
-  width: 55%;
+  diplay: flex;
+  margin: 0 auto;
+  width: 100%;
+  height: 100%;
   position: relative;
-  left: 22.5%;
   padding-bottom: 10px;
+  padding-right: 10px;
 }
 
 .project1 {
-  padding-top: 15px;
-  margin: 0 auto;
-  padding-bottom: 15px;
+  width: 50%;
+  height: 50%;
+  margin: auto;
 }
 
 .languages {
@@ -121,10 +129,13 @@
 }
 
 .contact a {
-  color: #5FAD41;
+  color: #00A9FF;
   font-weight: bold;
 }
 
 .contact .col {
   padding-top: 10px;
 }
+
+
+color: #5FAD41;
