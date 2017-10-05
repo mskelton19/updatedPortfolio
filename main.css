@@ -1,9 +1,9 @@
 .cover {
-  background-image: url('https://www.clipartsgram.com/image/254747200-free-download-background-images-for-website-design-3.jpg');
-  background-size: cover;
+  background-image: url('images/black_scales.png');
+  /*background-size: cover;
   background-repeat: no-repeat;
-  background-position: center;
-  height: 80vh;
+  background-position: center;*/
+  height: 60vh;
   width: 100vw;
 }
 
@@ -12,62 +12,51 @@
   position: relative;
   top: 10%;
   color: white;
-  width: 35vh;
-  height: 35vh;
+  width: 40vh;
+  height: 40vh;
   margin: 0 auto;
-  background-color: #888888;
+  background-color: #646366;
   border-radius: 50%;
+  border: 3px inset #00A9FF;
   opacity: .9;
 }
 
 .innercircle {
   text-align: center;
   position: relative;
-  top: -33%;
+  top: -39.4%;
   color: white;
-  width: 34vh;
-  height: 34vh;
+  width: 39vh;
+  height: 39vh;
   margin: 0 auto;
-  border: 3px inset #5FAD41;
-  border-radius: 50%;
+  /*border: 3px inset #5FAD41;
+  border-radius: 50%;*/
 }
 
 .navbar {
-  top: -25%;
-  background-color: #4C544F;
+  top: -42%;
+  background-color: #646366;
   opacity: .8;
-  width: 70vh;
+  width: 100vw;
   margin: 0 auto;
 }
 
 .navbar li {
   display: inline-block;
-  color: #5FAD41;
+  color: white;
   font-size: 15px;
   font-style: bold;
-  padding-right: 15px;
+  padding-right: 10px;
 }
 
 .navbar ul {
   margin: 0 auto;
 }
 
-.languages img {
-  height: 10vh;
-}
-
-.languages ul {
-  display: inline;
-}
-
-.languages li {
-  display: inline-block;
-}
-
 .title h1, h6 {
   position: relative;
-  top: 14.5vh;
-  color: #1A1A1A;
+  top: 16vh;
+  color: white;
   font-family: 'Fjalla One', sans-serif;
 }
 
@@ -75,7 +64,8 @@
   width: 100vw;
   height: 75%;
   padding-bottom: 15px;
-  background-image: url('http://karyoberbrunner.com/wp-content/uploads/2014/07/black-textured-wallpaper-metal-hole-1920x1200.jpg');
+  /*background-image: url('images/black_thread.png');*/
+  background-color: gray;
 }
 
 .projects h1 {
@@ -98,11 +88,11 @@
 .languages {
   text-align: center;
   padding: 25px;
-  background-color: #5FAD41;
+  background-color: #00A9FF;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  height: 30%;
+  height: 20%;
   width: 100vw;
   color: #E4E3D3;
 }
@@ -111,8 +101,20 @@
   padding: 10px;
 }
 
+.languages img {
+  height: 10vh;
+}
+
+.languages ul {
+  display: inline;
+}
+
+.languages li {
+  display: inline-block;
+}
+
 .contact {
-  background-color: #343434;
+  background-image: url('images/black_thread.png');
   width: 100vw;
   color: #E4E3D3;
   padding: 25px;
