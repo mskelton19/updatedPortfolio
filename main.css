@@ -34,16 +34,18 @@
 
 .navbar {
   top: -25%;
-  background-color: gray;
-  opacity: .7;
+  background-color: #4C544F;
+  opacity: .8;
   width: 70vh;
   margin: 0 auto;
 }
 
 .navbar li {
   display: inline-block;
-  color: white;
+  color: #5FAD41;
   font-size: 20px;
+  font-style: bold;
+  padding-right: 15px;
 }
 
 .navbar ul {
@@ -69,28 +71,44 @@
   font-family: 'Fjalla One', sans-serif;
 }
 
-.cover2 {
-  /*background-image: url('http://blog.hostbaby.com/wp-content/uploads/2013/07/scuffedstatic_blue1400x900.jpg');*/
-  background-color: white;
+.projects {
+  width: 100vw;
+  height: 75vh;
+}
+
+.projects h1 {
+  text-align: center;
+  padding-top: 10px;
+}
+
+.languages {
+  text-align: center;
+  padding: 25px;
+  background-color: #5FAD41;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  height: 100vh;
+  height: 30%;
   width: 100vw;
-}
-
-.container {
   color: #E4E3D3;
-  background-color: #343434;
-  padding-top: 10px;
-  margin: 0 auto;
 }
 
-.col {
-  text-align: center;
+.languages i {
+  padding: 10px;
 }
 
 .contact {
-  display: block;
   background-color: #343434;
+  width: 100vw;
+  color: #E4E3D3;
+  padding: 25px;
+}
+
+.contact a {
+  color: #5FAD41;
+  font-weight: bold;
+}
+
+.contact .col {
+  padding-top: 10px;
 }
