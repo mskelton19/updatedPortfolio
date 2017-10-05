@@ -43,7 +43,7 @@
 .navbar li {
   display: inline-block;
   color: #5FAD41;
-  font-size: 20px;
+  font-size: 15px;
   font-style: bold;
   padding-right: 15px;
 }
@@ -73,12 +73,26 @@
 
 .projects {
   width: 100vw;
-  height: 75vh;
+  height: 75%;
+  padding-bottom: 15px;
+  background-image: url('http://karyoberbrunner.com/wp-content/uploads/2014/07/black-textured-wallpaper-metal-hole-1920x1200.jpg');
 }
 
 .projects h1 {
   text-align: center;
-  padding-top: 10px;
+}
+
+.projects img {
+  width: 55%;
+  position: relative;
+  left: 22.5%;
+  padding-bottom: 10px;
+}
+
+.project1 {
+  padding-top: 15px;
+  margin: 0 auto;
+  padding-bottom: 15px;
 }
 
 .languages {
