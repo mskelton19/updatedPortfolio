@@ -5,14 +5,16 @@
   background-position: center;*/
   height: 65vh;
   width: 100vw;
+  min-height: 65vh;
 }
 
 .title {
   text-align: center;
   position: relative;
-  top: 10%;
+  top: 12%;
   color: #E4E3D3;
   width: 45vh;
+  min-width: 45vh;
   height: 45vh;
   min-height: 45vh;
   margin: 0 auto;
@@ -23,19 +25,17 @@
 
 .title a {
   position: relative;
-  top: 17.5vh;
+  top: 20vh;
 }
 
 .innercircle {
   text-align: center;
   position: relative;
-  top: -39.4%;
+  top: -35.4%;
   color: #A4A5A2;
   width: 39vh;
   height: 39vh;
   margin: 0 auto;
-  /*border: 3px inset #5FAD41;
-  border-radius: 50%;*/
 }
 
 .flex {
@@ -45,10 +45,11 @@
 }
 
 .navbar {
-  top: -36.5%;
-  /*background-image: url('images/black_scales.png');*/
+  top: -35%;
   background-color: #00A9FF;
   width: 100vw;
+  font-family: 'Fjalla One', sans-serif;
+  margin-bottom: 7.5px;
 }
 
 .navbar li {
@@ -68,7 +69,6 @@
 }
 
 .navbar a:hover {
-  /*background-color: black;*/
   color: black;
   text-decoration: none;
 }
@@ -77,11 +77,46 @@
   margin: 0 auto;
 }
 
+.aboutMe  {
+  height: 75%;
+}
+
+.aboutMe img {
+  width: 100%;
+  height: auto;
+  padding: 0px;
+  max-width: 100%;
+}
+
+.me .col {
+  padding: 0px;
+  height: 100%;
+}
+
+.bio {
+  text-align: center;
+  width: 50%;
+  margin: 0 auto;
+  padding-top: 25px;
+  height: 70%;
+  min-width: 50%;
+}
+
+.bio p {
+  text-align: center;
+  font-size: 15px;
+}
+
 .title h1, h6 {
   position: relative;
-  top: 15vh;
+  top: 17.5vh;
   color: #E4E3D3;
   font-family: 'Fjalla One', sans-serif;
+}
+
+.innercircle i {
+  position: relative;
+  top: 17.5vh;
 }
 
 .projects {
@@ -90,19 +125,31 @@
   padding-top: 25px;
   padding-bottom: 15px;
   /*background-image: url('images/black_thread.png');*/
-  background-color: #A4A5A2;
+  background-image: url('http://www.designbolts.com/wp-content/uploads/2013/02/Techno-Grey-Seamless-Pattern-For-Website-Background.jpg');
   margin: 0 auto;
+  font-family: 'Fjalla One', sans-serif;
 }
 
 .projects h1 {
   text-align: center;
-  padding: 20px;
+  padding: 30px;
+  font-family: 'Fjalla One', sans-serif;
+  marin-top: 10px;
 }
 
 .flex-container {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-around;
+}
+
+.images p {
+  font-family: 'Lora', serif;
+  margin: 0px;
+}
+
+.images button {
+  background-color: #E4E3D3;
 }
 
 .projects ul {
@@ -115,10 +162,15 @@
   width: 325px;
   /*margin-left: -60px;*/
   margin: 15px;
-  height: 350px;
+  height: 425px;
   background-image: url('images/black_thread.png');
   text-align: center;
   color: #00A9FF;
+}
+
+.projects p {
+  padding: 10px;
+  font-size: 15px;
 }
 
 .projects li img {
@@ -179,7 +231,22 @@
 
 .contact .col {
   padding-top: 10px;
+  text-align: center;
 }
+
+.contact i {
+  padding-top: 5px;
+}
+
+h4, h5 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+button {
+  background-color: red;
+}
+
 
 
 /*color: #5FAD41;
