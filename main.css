@@ -68,7 +68,7 @@
 @media(max-width: 561px){
   .navbar a{
     font-size: 16px;
-    padding-left: 25px;
+    padding-left: 22.5px;
     position: relative;
     left: -35%;
   }
@@ -189,7 +189,7 @@
 @media(max-width: 993px){
   .languages i {
     position: relative;
-    left: -3.25%;
+    left: -1.3%;
   }
 }
 
