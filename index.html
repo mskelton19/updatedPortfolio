@@ -2,11 +2,13 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <meta name='viewport' content='width=device-width, intial-scale=1.0'>
+    <meta name='viewport' content='width=device-width, intial-scale=1'>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src='https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.js'></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-mfizz/2.4.1/font-mfizz.css'>
     <script src="https://use.fontawesome.com/c9b2a138d1.js"></script>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
     <link rel='stylesheet' type='text/css' href='main.css'>
     <link href="https://fonts.googleapis.com/css?family=Fjalla+One|Lora" rel="stylesheet">
     <title>Mike Skelton</title>
@@ -33,7 +35,7 @@
         <li class='flex1'><a href='#linktoProjects'>Projects</a></li>
         <li class='flex1'><a href='https://docs.google.com/document/d/1H2EMeDIcgr_okAETvNSIjrHFYi3DyWmM63gM0v1aipw/edit?usp=sharing'>Contact</a></li>
         <li class='flex1'><a href='https://docs.google.com/document/d/1eT8m-riteTfOlWrru9flQ0trqbIjMacGWQ_mwhpuU5E/edit?usp=sharing'>Resume</a></li>
-        <li class='flex1'><a href='https://profiles.generalassemb.ly/mike-skelton'>G.A. Profile</a></li>
+        <li class='flex1'><a href='https://profiles.generalassemb.ly/mike-skelton'>Profile</a></li>
       </ul>
     </div>
     </div>
@@ -60,13 +62,13 @@
           <button><a href='https://github.com/rachelchhay/fantasy_football_app_frontend'>More Info</a></button>
         </li>
         <li class='flex-item'>
-          <a href='fishappmongo.herokuapp.com'><img src='images/fish.png'></a>
+          <a href='https://fishappmongo.herokuapp.com/'><img src='images/fish.png'></a>
           <h4>Fish Finder</h4>
           <p>Web based Express app for posting fishing pictures as well as fishing holes. Passport authentication and Google Maps capabilities.</p>
           <button><a href='https://github.com/mskelton19/Mike-Skelton-Project-2'>More Info</a></button>
         </li>
         <li class='flex-item'>
-          <a href='petfindr.herokuapp.com'><img src='images/petfinder.png'></a>
+          <a href='https://petfindr.herokuapp.com'><img src='images/petfinder.png'></a>
           <h4>PetFinder</h4>
           <p>Team project done with 2 classmates from General Assembly. This is a MEAN stack application for finding pets in one's area. Can search via a range of options and users can save pets to their profile. Third party API.</p>
           <button><a href='https://github.com/justin-ellis/pet-finder'>More Info</a></button>
@@ -207,21 +209,51 @@
         <h3>Get in touch</h3><br>
         <p>I'm a web developer living in Pittsburgh, PA looking for full-time and contract work. If you're interested in working together or networking, feel free to shoot me an email.
         </p>
-        <h4>Email</h4>
+
+        <h3>Email</h3>
         <a href='mailto:skeltonmr43@gmail.com'>skeltonmr43@gmail.com</a>
       </div>
       <div class='col'>
         <h3>Networks</h3>
           <a href='https://github.com/mskelton19'><i class="fa fa-github" style="font-size:48px;color:#00A9FF"></i></a>
-          <a href='https://www.linkedin.com/in/mike-skelton/'><i class="fa fa-linkedin-square" style="font-size:48px;color:#00A9FF"></i></a><br><br>
+          <a href='https://www.linkedin.com/in/mike-skelton/'><i class="fa fa-linkedin-square" style="font-size:48px;color:#00A9FF"></i></a><br><br><br>
+        <h3>Resume</h3>
+          <!-- Trigger the modal with a button -->
+        <button type="button" class='resumeButton' class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Click Here</button>
+
+        <!-- Modal -->
+        <div id="myModal" class="modal fade" role="dialog">
+          <div class="modal-dialog modal-lg">
+
+            <!-- Modal content-->
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h2 class="modal-title">Resume</h2>
+              </div>
+              <div class="modal-body">
+                <img src='images/resume.png'>
+                <img src='images/resume1.png'>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+
+          </div>
+        </div><br><br>
         </div>
       </div>
     </div>
   </div>
 
+
 <footer>
 
 </footer>
 
-
+<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+</body>
 </html>
