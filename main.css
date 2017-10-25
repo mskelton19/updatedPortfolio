@@ -58,19 +58,19 @@
 .navbar a {
   color: #E4E3D3;
   list-style-type: none;
-  padding-left: 55px;
+  padding-left: 75px;
   font-size: 25px;
   position: relative;
-  left: -30.5%;
+  left: -45%;
   text-align: left;
 }
 
 @media(max-width: 561px){
   .navbar a {
-    font-size: 15px;
-    padding-left: 15.15px;
+    font-size: 25px;
+    padding-left: 40.15px;
     position: relative;
-    left: -35%;
+    left: -40%;
   }
   .navbar li .flex1 {
     padding-right: 0px;
