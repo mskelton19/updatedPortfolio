@@ -67,8 +67,8 @@
 
 @media(max-width: 561px){
   .navbar a {
-    font-size: 25px;
-    padding-left: 40.15px;
+    font-size: 20px;
+    padding-left: 20px;
     position: relative;
     left: -40%;
   }
